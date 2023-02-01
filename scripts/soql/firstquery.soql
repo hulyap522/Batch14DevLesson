@@ -1,0 +1,5 @@
+SELECT id,name,phone from Account
+
+SELECT id,name,project_name__c from salesforce_project__c where status__c!= 'new'
+
+SELECT Id, Name, Industry,phone from account where phone !=''
