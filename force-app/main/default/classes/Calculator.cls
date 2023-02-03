@@ -6,7 +6,7 @@ public  class Calculator {
     system.debug('calling private method');
     privateMessage1();
     system.debug('called private method');
-
+ //parameter less method
   }
 private void privateMessage1(){
   system.debug('private method called.');
@@ -20,7 +20,7 @@ public void welcomeMessage(){
     system.debug(msg);
 
   }
-
+//paremeterLess metthod
   //return type =string
   //parameter type = string (only 1 )
   public string printAndReturnMessage(string m){
